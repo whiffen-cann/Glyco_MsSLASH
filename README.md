@@ -51,14 +51,9 @@ Usage
 <tr>
 <td>Filename</td>
 <td>UniqueID</td>
-<td>Total</td>
-<td>Spectra</td>
-<td>Spectra</td>
-<td>ID</td>
-<td>number</td>
-<td>Ratio</td>
-<td>of</td>
-<td>ID</td>
+<td>Total Spectra</td>
+<td>Spectra ID number</td>
+<td>Ratio of ID</td>
 </tr>
 <tr>
 <td>nash96_r2_90min_22feb.mgf.GlycoSLASH.tsv</td>
