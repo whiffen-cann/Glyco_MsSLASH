@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from sys import argv
 from os import listdir
 from os.path import isfile, join
