@@ -8,9 +8,11 @@ msSLASH
 
 Installation
 ---
-1. git clone git@github.com:whiffen-cann/Glyco_MsSLASH.git
-2. cd  GlycoSLASH/msSLASH/
-3. bash install.sh
+```
+git clone git@github.com:whiffen-cann/Glyco_MsSLASH.git
+cd  GlycoSLASH/msSLASH/
+bash install.sh
+```
 
 Usage
 ---
@@ -23,17 +25,26 @@ Usage
    
    In our respository, we already place a test mgf in the Test folder and a test mgf in the folder as well.
    
-3. Create a list file for mgf list files, one mgf file per line. For example , content in file <test.list> in this repository as belove:
+3. Create a list file for mgf list files one mgf file per line.
+   ```
+   vi test.list
+   ```
+   
+   For example , content in file <test.list> in this repository as belove:
 
    Test/nash96_r2_90min_22feb.mgf
    
 5. Run:
-   '''GlycoSLASH test.list'''
+   ```
+   GlycoSLASH test.list
+   ```
    
 6. Check the results at the Test folder. You will find results ending with ".GlycoSLASH.tsv"
    
 8. Summarize the results, Run:
-   '''GlycoSLASHParser.py Test'''
+   ```
+   GlycoSLASHParser.py Test
+   ```
 
    The output will be :
    Filename        UniqueID        Total Spectra   Spectra ID number       Ratio of ID
