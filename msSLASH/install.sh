@@ -35,8 +35,7 @@ echo ""
 
 dir=`dirname $(readlink -f $0 )`
 echo "msSLASH's directory is $dir/bin"
-export PATH="$PATH:$dir/bin:$dir/../"
-echo "export msSLASH and GlycoSLASH to PATH"
-
+echo "export PATH=\$PATH:$dir/bin/:$dir/../" >> ~/.bashrc
+`source ~/.bashrc`
 exit 0
 
