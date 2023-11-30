@@ -33,5 +33,10 @@ echo ""
 echo "Executables are now installed under bin/"
 echo ""
 
+dir=`dirname $(readlink -f $0 )`
+echo "msSLASH's directory is $dir/bin"
+export PATH="$PATH:$dir/bin:$dir/../"
+echo "export msSLASH and GlycoSLASH to PATH"
+
 exit 0
 
