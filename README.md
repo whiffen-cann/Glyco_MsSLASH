@@ -2,9 +2,9 @@ Introduction
 ---
 GlycoSLASH is software developed based on msSLASH (standing for mass spectral Searching using LocAlity Sensitive Hashing) was developed by Sujun Li and Haixu Tang, specifically for glycopeptides identification based on the pre-constructed glycopeptides library.
 
-Prerequisites
+Prerequisites 
 
-msSLASH
+msSLASH 
 
 Installation
 ---
@@ -23,7 +23,7 @@ Usage
    cp test.mgf Test
    ```
    
-   In our respository, we already place a test mgf in the Test folder and a test mgf in the folder as well.
+   In our repository, we already place a test mgf in the Test folder and a test mgf in the folder as well.
    
 3. Create a list file for mgf list files one mgf file per line.
    ```
@@ -46,7 +46,7 @@ Usage
    GlycoSLASHParser.py Test
    ```
 
-   The output will be :
+   <p>The output will be :</p>
    Filename        UniqueID        Total Spectra   Spectra ID number       Ratio of ID
    nash96_r2_90min_22feb.mgf.GlycoSLASH.tsv        222     3616    350     0.0967920353982
 
