@@ -47,9 +47,11 @@ Usage
    ```
 
    <p>The output will be :</p>
-   |Filename|UniqueID|Total Spectra|Spectra ID number|Ratio of ID|
+   <tr>
+     |Filename|UniqueID|Total Spectra|Spectra ID number|Ratio of ID|
    |：---：|：---：|：---：|：---：|：---：|
-   |nash96_r2_90min_22feb.mgf.GlycoSLASH.tsv|222|3616|350|0.096792035398|
+   |nash96_r2_90min_22feb.mgf.GlycoSLASH.tsv|222|3616|350|0.096792035398| 
+   </tr>
 
 Questions
 ---
