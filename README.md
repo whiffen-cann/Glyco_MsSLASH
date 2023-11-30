@@ -47,11 +47,27 @@ Usage
    ```
 
    <p>The output will be :</p>
-   <tr>
-     |Filename|UniqueID|Total Spectra|Spectra ID number|Ratio of ID|
-   |：---：|：---：|：---：|：---：|：---：|
-   |nash96_r2_90min_22feb.mgf.GlycoSLASH.tsv|222|3616|350|0.096792035398| 
-   </tr>
+   <table style="text-align:center";>
+<tr>
+<td>Filename</td>
+<td>UniqueID</td>
+<td>Total</td>
+<td>Spectra</td>
+<td>Spectra</td>
+<td>ID</td>
+<td>number</td>
+<td>Ratio</td>
+<td>of</td>
+<td>ID</td>
+</tr>
+<tr>
+<td>nash96_r2_90min_22feb.mgf.GlycoSLASH.tsv</td>
+<td>222</td>
+<td>3616</td>
+<td>350</td>
+<td>0.096792035398</td>
+</tr>
+</table><br/>
 
 Questions
 ---
