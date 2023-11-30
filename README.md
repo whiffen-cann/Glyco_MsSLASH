@@ -47,8 +47,8 @@ Usage
    ```
 
    <p>The output will be :</p>
-   Filename        UniqueID        Total Spectra   Spectra ID number       Ratio of ID
-   nash96_r2_90min_22feb.mgf.GlycoSLASH.tsv        222     3616    350     0.0967920353982
+   <p>Filename        UniqueID        Total Spectra   Spectra ID number       Ratio of ID</p>
+   <p>nash96_r2_90min_22feb.mgf.GlycoSLASH.tsv        222     3616    350     0.0967920353982</p>
 
 Questions
 ---
