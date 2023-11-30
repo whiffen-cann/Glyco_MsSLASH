@@ -16,7 +16,9 @@ Usage
 ---
 1. Create an folder contains all the mgf files for glycopeptides identification. For example:
    
-   <p>1)'''mkdir Test'''</p>
+   '''
+   mkdir Test
+   '''
    <p>2)'''cp test.mgf Test'''</p>
 
    In our respository, we already place a test mgf in the Test folder and a test mgf in the folder as well.
