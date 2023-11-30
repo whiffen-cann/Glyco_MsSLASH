@@ -15,8 +15,10 @@ Installation
 Usage
 
 1. Create an folder contains all the mgf files for glycopeptides identification. For example:
-   makedir Test
-   cp test.mgf Test
+   
+   1)makedir Test
+   2)cp test.mgf Test
+
    In our respository, we already place a test mgf in the Test folder and a test mgf in the folder as well.
    
 3. Create a list file for mgf list files, one mgf file per line. For example , content in file <test.list> in this repository as belove:
