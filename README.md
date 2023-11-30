@@ -16,8 +16,8 @@ Usage
 ---
 1. Create an folder contains all the mgf files for glycopeptides identification. For example:
    
-   <p>1)mkdir Test</p>
-   <p>2)cp test.mgf Test</p>
+   <p>1)'''mkdir Test'''</p>
+   <p>2)'''cp test.mgf Test'''</p>
 
    In our respository, we already place a test mgf in the Test folder and a test mgf in the folder as well.
    
@@ -26,12 +26,13 @@ Usage
    Test/nash96_r2_90min_22feb.mgf
    
 5. Run:
-   GlycoSLASH test.list
+   '''GlycoSLASH test.list'''
    
 6. Check the results at the Test folder. You will find results ending with ".GlycoSLASH.tsv"
    
 8. Summarize the results, Run:
-   GlycoSLASHParser.py Test
+   '''GlycoSLASHParser.py Test'''
+
    The output will be :
    Filename        UniqueID        Total Spectra   Spectra ID number       Ratio of ID
    nash96_r2_90min_22feb.mgf.GlycoSLASH.tsv        222     3616    350     0.0967920353982
